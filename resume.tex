@@ -1,0 +1,359 @@
+\documentclass{article}[16pt]
+\parskip 0pt
+\oddsidemargin -0.675in
+\textwidth 7.5in
+\topmargin -0.6in
+\textheight 9.75in
+\thispagestyle{empty}
+\pagenumbering{gobble}
+
+\usepackage{palatino}
+%\usepackage{fontspec}
+\usepackage{array}
+%\usepackage[showframe=true]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\lhead{This is my name}
+%\rhead{this is page \thepage}
+%\cfoot{center of the footer!}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+%\setlist[itemize]{leftmargin=*}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+\newlength{\lcolw}
+\setlength{\lcolw}{1.75in}
+\newlength{\rcolw}
+\setlength{\rcolw}{5.25in}
+\newlength{\hlcolw}
+\setlength{\hlcolw}{\lcolw}
+\newlength{\hmcolw}
+\setlength{\hmcolw}{3.75in}
+\newlength{\hrcolw}
+\setlength{\hrcolw}{2in}
+
+\newlength{\itemmargin}
+\setlength{\itemmargin}{-0.0in}
+\newlength{\vparskip}
+\setlength{\vparskip}{0.05in}
+%\newcommand\textbox[1]{\parbox{0.333\textwidth}{#1}}
+
+
+\begin{document}
+
+\begin{tabular}{L{\lcolw} L{\rcolw}}
+%\hline \hline \\
+\textbf{\LARGE {Kiron Mateti, Ph.D.}} & {\large Versatile, team-oriented, self-starter with hands-on experience and understanding of robotics and control systems, and proven track record of implementing high level algorithms on embedded hardware} \\  \\
+\hline \hline \\ 
+\end{tabular}
+
+\vspace{-0.1in}
+
+\begin{tabular} {L{2in}  L{2.5in} L{2in}}
+38 Highland Drive & {\tt  kiron.mateti@gmail.com} & U.S. Citizen (Male) \\
+Telford, PA 18969 & 937-572-9655 & \href{http://www.linkedin.com/in/kiron-mateti-b691152}{linkedin profile}
+\\ \\
+\end{tabular}
+
+\vspace{-0.1in}
+
+\begin{tabular}{L{\lcolw}  L{\rcolw}}
+ \hline \hline \\
+\textbf{\Large Summary of Qualifications} &
+\vspace{-0.3in} 
+ \begin{itemize}[leftmargin = \itemmargin]
+
+	\item Over 10 years experience in modeling, simulation, and control of a broad set of electro-mechanical systems
+	
+	\item 4 years experience in control system and error analysis of gimbaled electro-optic and infrared sensor systems coupled with laser range finding and IMU/GPS systems
+	
+	\item 2 years experience in embedded software development and hardware integration for real-time processing of optical communication, remote control signals, and video target tracking
+	
+	\end{itemize}\\
+ \hline \\ 
+\end{tabular}
+
+\begin{tabular}{L{\hlcolw}  L{\rcolw}}
+\textbf{\Large Experience} & \textbf{\large Research Scientist} \hfill {\large June 2012 - Present}  \\
+%\textbf{\Large Work Experience} 
+& \textit{\large US Navy, Naval Surface Warfare Center (NSWC), Crane, IN} \\ 
+&
+\vspace{-0.2in} 
+\begin{itemize} [leftmargin = \itemmargin]
+	\item Secured and managed over \$1 million in research funding to the Electro-Optic Technology Division, resulting in 3 patents, 3 papers, additional funding from customers, and technical development and mentorship of junior engineers
+	\item Developed fusion video tracking software using Matlab Computer Vision Toolbox and Extended Kalman Filter, and implemented algorithms on NVIDIA Jetson TK1 embedded hardware utilizing CUDA C/C++ and OpenCV
+	\item Designed, fabricated, and programmed wearable light emitting diode based communication devices and beacons that interfaced with Android devices using TI-MSP430s in C and Android applications in Java	
+	\item Analyzed, debugged, modeled and simulated electro-optic and infrared sensor system gimbal dynamics, control systems, and target geolocation and tracking for a number of Navy programs
+	
+\end{itemize} \\
+
+& \textbf{\large DoD SMART Research Fellow} \hfill {\large September 2007 - May 2012}  \\
+& \textit{\large The Pennsylvania State University, University Park, PA} \\ 
+& 
+\vspace{-0.2in} 
+
+	\begin{itemize}[leftmargin = \itemmargin]
+	\item Developed novel monolithic fabrication process for photolithographic definition of biologically inspired, insect scale compliant mechanisms out of negative photoresist
+	\item Modeled and simulated piezoelectrically actuated flapping wing mechanism including aerodynamic lift forces in Matlab/Simulink and validated model using experimental results in air and in vacuum
+	\item Measured large wing angular positions using high speed stroboscopic photography and image processing using Matlab, and small signal response using a laser vibrometer
+	\end{itemize} \\
+	\hline \\ 
+\end{tabular}
+
+\begin{tabular}{L{\hlcolw}  L{\rcolw}}
+\textbf{\Large Education} & \textbf{\large Ph.D. in Electrical Engineering} \hfill {\large May 2012} \\ 
+& {\it\large Pennsylvania State University, University Park, PA} \\ \\
+&  \textbf{Dissertation Title:} \textit{Flapping Wing Mechanisms for Pico Air Vehicle Applications Using Piezoelectric Actuators}
+\href{http://www.mne.psu.edu/mrl/theses/mateti.pdf}{(pdf)} \\
+ \\ \hline  \hline
+\end{tabular}
+
+\begin{tabular}{L{\hlcolw}  L{\rcolw}}
+\hline \hline \\
+\textbf{\Large Summary of } & 
+\textbf{Matlab/Simulink (over 10 years):} 
+\\
+\textbf{\Large Skills} & 
+\vspace{-0.25in}
+\begin{itemize}[leftmargin = \itemmargin]
+\item Taught short-course to NSWC Crane engineers on applied linear systems and control using the Symbolic Math and Control Systems Toolbox
+\item Created GUI application which animated coordinate axes from an automated gimbal balance test, analyzed test data to determine model parameters, and generated Excel spreadsheets
+
+%\item Conducted motion capture testing with fiducial marker tracking using Computer Vision and Image Processing toolbox of personnel head and body motion to simulate free space optical data link transceivers with specified divergence and fields of view
+\end{itemize} \\
+& \textbf{Real-time LabVIEW Programming (10 years):} \\
+& \vspace{-0.25in}
+\begin{itemize}[leftmargin = \itemmargin]
+\item Developed imaging characterization system with synchronized strobe LED and shaker table, USB 3.0 camera and control, and DAQmx data acquisition and control
+\end{itemize} \\
+
+& \textbf{Electronics Debugging (10 years):} \\
+&
+\vspace{-0.25in}
+\begin{itemize}[leftmargin = \itemmargin]
+\item Tested and debugged a broad set of electronic devices, at a micro and macro scale, using probe stations, multimeters, oscilloscopes, spectrum and impedance analyzers
+\end{itemize}
+\\
+
+& \textbf{CUDA C/C++ using Microsoft Visual Studio and Linux environment (2 years)}\\
+&
+\vspace{-0.25in}
+\begin{itemize}[leftmargin = \itemmargin]
+\item Developed real-time embedded computer vision devices using NVIDIA Jetson TK1 to track on multiple video feeds using OpenCV libraries and network interface to gimbal control systems
+\end{itemize} \\
+
+& \textbf{MSP430 C Programming with Code Composer Studio (2 years):} \\
+&
+\vspace{-0.25in}
+\begin{itemize}[leftmargin = \itemmargin]
+\item Developed optical data links using MSP430G2553 and MSP430F2619 devices using UART, IrDA, ADC, and DAC peripheral control with Android audio port interface
+\end{itemize} \\
+
+& \textbf{Microsoft Excel with Visual Basic for Applications (2 years):}\\
+&
+\vspace{-0.25in}
+\begin{itemize}[leftmargin = \itemmargin]
+\item Developed sensor system pointing error propagation calculation tool to perform coordinate transformations, visualization, and operational range estimation
+\end{itemize} \\
+
+%& \textbf{Python:} \\
+%&
+%\vspace{-0.3in}
+%\begin{itemize}[leftmargin = \itemmargin]
+%\item Used Python for Scalable Machine Learning edX course involving numpy, lambda functions, pySpark, Resilient Distributed Datasets, supervised learning, linear regression optimization, and gradient descent
+%\end{itemize}
+
+& \textbf{Other:} \\
+&
+\vspace{-0.25in}
+\begin{itemize}[leftmargin = \itemmargin]
+\item Familiar with Python with Numpy, Java for Android development, Raspberry Pi and Arduinos projects, Microsoft Office, CadSoft Eagle, SolidWorks, CorelDRAW, Adobe Premiere Pro, and \LaTeX.
+\end{itemize}
+\\
+
+\hline \\
+\end{tabular}
+
+\begin{tabular}{L{\hlcolw}  L{\rcolw}}
+\textbf{\Large Patents and Publications} & 
+\vspace{-0.3in} 
+ \begin{itemize}[leftmargin = \itemmargin]
+
+	\item Submitted 3 patents, USPTO 14/803,018 (7/17/2015), 14/820,799 (8/7/2015), and 14/952,403 (11/25/2015) related to wearable optical communications and identification systems, and vibration characterization of optical elements
+	
+	\item Authored 14 papers in mostly IEEE and ASME journals and conferences, see \href{https://www.researchgate.net/profile/Kiron_Mateti}{(researchgate.net profile)} 
+	\end{itemize} \\
+	\hline \\
+\end{tabular}
+	
+\begin{tabular}{L{\hlcolw}  L{\rcolw}}
+\textbf{\Large Professional Memberships} & 
+\vspace{-0.3in} 
+\begin{itemize}[leftmargin = \itemmargin]
+\item \textbf{SPIE Member} \hfill May 2014 - Present
+\vspace{-0.1in} 
+\item \textbf{ASME Member} \hfill August 2012 - Present
+\vspace{-0.1in} 
+\item \textbf{Tau Beta Pi} \hfill February 2005 - Present
+\vspace{-0.1in} 
+\item \textbf{IEEE Member} \hfill August 2003 - Present
+\end{itemize} \\
+\hline \\
+\end{tabular}
+
+%\begin{tabular}{L{\hlcolw}  L{3in} L{2in}}
+%\textbf{\Large Professional} &  \textbf{SPIE Member} & May 2014 - present \\
+%\textbf{\Large Memberships} & \textbf{ASME Member} & August 2012 - present \\
+ %& \vspace{0.05in} \textbf{Tau Beta Pi} & February 2005 - present \\ 
+ %& \textbf{IEEE Member} & August 2003 - present \\
+%\\
+%\hline \\
+%\end{tabular}
+
+
+%\vspace{-0.3in} 
+%\begin{itemize}[leftmargin = \itemmargin]
+
+%\item \textbf{K. Mateti}, T. Boyke, C. Boyd,``Methods and Systems for Identification and Communication Using Free Space Optical Systems Including Wearable Systems” (Submitted, U.S. Patent and Trademark Application 14/952,403 filed on November 25, 2015) 
+%
+%\item \textbf{K. Mateti}, C. Armes, A. Cole, J. Borneman, A. Lin. ``Characterization and Evaluation of Optical Elements Under Vibrational Loading"' (Submitted, U.S. Patent and Trademark Application 14/803,018 filed on July 17, 2015 and 14/820,799 filed on August 7, 2015) 
+
+%\end{itemize} \\
+
+
+
+%\begin{tabular}{L{\hlcolw}  L{\rcolw}}
+%\textbf{\Large Publications} & Authored 14 papers in journals and conferences, mostly in IEEE and ASME journals and conferences \href{https://www.researchgate.net/profile/Kiron_Mateti}{(researchgate.net profile)}\\ \\
+%\hline \\
+%\end{tabular}
+
+\begin{tabular}{L{\hlcolw}  L{\rcolw}}
+\textbf{\Large Community} & \textbf{\large FIRST Robotics Challenge Mentor } \hfill {\large September 2013 - June 2015}  \\
+\textbf{\Large Service} & \textit{\large Bloomington High School South, Bloomington, IN} \vspace{0.05in}  \\
+& 
+\vspace{-0.2in} 
+\begin{itemize}[leftmargin = \itemmargin]
+	\item Led and taught students LabView, C/C++, I2C, SPI, Ethernet, PWM communication and control on a RoboRIO, a Xilinx FPGA and dual-core ARM Cortex-A9 processor to program a semi-autonomous robot for national competition
+\end{itemize} \\
+%&
+%\textbf{\large FIRST Lego League Mentor } \hfill {\large September 2015 - present}  \\
+%\textbf{\Large Experience} & \textit{\large Banneker Community Center, Bloomington, IN} \vspace{0.05in}  \\
+%&
+%\vspace{-0.3in}
+%\begin{itemize}[leftmargin = \itemmargin]
+	%\item Mentored elementary school students to build and program a semi-autonomous, Lego robot for national competition
+	%\end{itemize} \\
+	\hline \hline
+\end{tabular}
+
+%\begin{tabular}{L{\hlcolw}  L{\rcolw}}
+%\\
+%\textbf{\Large Hobbies} & Photography, videography, guitar, piano, ukulele, basketball, Android app, Raspberry Pi, and Arduino development, bicycle generators and renewable energy
+%\\ \\
+%\hline \hline
+%\end{tabular}
+
+%&  
+%\item[Funded Research Projects] ~\\[-16pt]
+%\begin{itemize}
+%\item \textbf{K. Mateti} (PI), G. J. Petty, ``Wearable Optical Patches for Identify Friend or Foe (IFF)/Free Space Optical (FSO) Communication in Radio Frequency (RF) denied Environments." FY15 Naval Innovative Science and Engineering (NISE)/ Section 219 Funding.  (\$180K, 1 yr.)
+%\item \textbf{K. Mateti} (PI), G. J. Petty, ``Multispectral Fusion Tracking Methods and Implementation." FY15 Naval Innovative Science and Engineering (NISE)/ Section 219 Funding.  (\$180K, 1 yr.)
+%\item \textbf{K. Mateti} (PI), J. S. Hamilton, C. G. Cameron, ``Wearable Optical Patches for Identify Friend or Foe (IFF)/Free Space Optical (FSO) Communication."'  FY14 Naval Innovative Science and Engineering (NISE)/ Section 219 Funding.  (\$210K, 1 yr.)
+%\item \textbf{K. Mateti} (PI), ``Performance of Electrowetting Optics under Vibrational Loading."'  FY14 Naval Innovative Science and Engineering (NISE)/ Section 219 Funding.  (\$37K, 3 months.)
+%\item R. K. Manigault, \textbf{K. Mateti} (Co-PI), S. Sanyal, ``Robust Non-mechanical Beam Steering for Laser Applications."'  FY14 Naval Innovative Science and Engineering (NISE)/ Section 219 Funding.  (\$180K, 1 yr.)
+%\item \textbf{K. Mateti} (PI), ``Non-mechanical Electronically Controllable Liquid Lens."'  FY13 Naval Innovative Science and Engineering (NISE)/ Section 219 Funding.  (\$70K, 1 yr.)
+%\end{itemize}
+%
+%
+
+%\item[Presentations]~\\[-16pt]
+%\begin{itemize}
+%
+%
+%\item	\textbf{K. Mateti}; J. D. Borneman; et al.,``Human Eye Detectability of Near Infrared Light Emitting Diode Illumination: Simulation and Experimental Results ," in Military Sensing Symposia, Passive Sensors, Analysis, Modeling, and Human Psychophysics, Gaithersburg MD, September 2015.
+%
+%\item	\textbf{K. Mateti},``Method for Simulating Free Space Optical Data Links in Personnel Applications," in Proceedings of the SPIE 8752, Modeling and Simulation for Defense Systems and Applications VIII, 875208, May 2013.
+%
+%\item	\textbf{K. Mateti}, ``Wing Rotation and Lift Modeling and Measurement in SUEX Flapping Wing Mechanisms," in Proceedings of the ASME 2012 Conference on Smart Materials, Adaptive Structures and Intelligent Systems, Stone Mountain, GA, USA, September 2012.
+%
+%\item	\textbf{K. Mateti}, ``SUEX Flapping Wing Mechanisms for Pico Air Vehicles," in Proceedings of the ASME 2012 Conference on Smart Materials, Adaptive Structures and Intelligent Systems, Stone Mountain, GA, USA, September 2012.
+%
+%\item \textbf{K. Mateti}, ``Thrust Modeling and Measurement for Clapping Wing Nano Air Vehicles Actuated By Piezoelectric T-beams," in {\it ASME 2010 Conference on Smart Materials, Adaptive Structures and Intelligent Systems}, Philadelphia, PA, USA, September 2010.
+%
+%\item \textbf{K. Mateti}, ``Clapping Wing Nano Air Vehicle Using Piezoelectric T-Beam Actuators," in {\it ASME 2009 Conference on Smart Materials, Adaptive Structures and Intelligent Systems} Oxnard, CA, USA, 2009. 
+%
+%\item 
+%Kiron Mateti, ``Solar Power Roadmap,``Energy Harvesting,' and ``LED: Lights for the Future,'' {\em NSF GK-12 GREATT Summer Teacher Workshop}, State College, PA, August 2007-2008.
+%
+%\item 
+%Kiron Mateti, ``Energy Harvesting from the Environment and Humans:
+%Solar, Wind, Tidal, Geothermal and Human,'' {\em Pennsylvania Science
+  %Teacher's Association Conference}, Hershey, PA, December 2007. \newpage
+%\end{itemize}
+%
+%
+%\item[Awards] 
+%~\\ [-16pt]
+%\begin{itemize}
+%\item \textbf{SMART (Science Mathematics and Research for Transformation) Scholarship for Service}, Department of Defense, August 2008 - June 2012.
+%\item \textbf{Melvin P. Bloom Memorial Outstanding Doctoral Research Award In Electrical Engineering}, Pennsylvania State University, April 2012.
+%\item \textbf{SPSEE (Society of Penn State Electrical Engineers) Fellowship, (\$500/yr, 3 yrs)}, Pennsylvania State University, University Park, PA, June 2008 - June 2010.
+%\item \textbf{NSF GK-12 GREATT Fellowship, (\$30K/yr, 2 yrs)}, Pennsylvania State University, University Park, PA, August 2006 - August 2008. 
+%\item \textbf{University Graduate Fellowship (\$17.2K/yr, 1 yr)}, Pennsylvania State University, University Park, PA, August 2005 - July 2006.
+%\item \textbf{Paul Lawrence Dunbar Scholarship (\$5K/yr, 4 yrs)}, Wright State
+  %University, Dayton OH, August 2001 - June 2005.
+%\end{itemize}
+%
+%\item[Software Skills] ~\\[-16pt]
+%\begin{itemize}
+%\item \textbf{MATLAB and Simulink} object oriented programming, ordinary differential equation solvers, image processing toolbox, computer vision.
+%\item \textbf{LabVIEW:} Computer Vision Module, DAQmx data acquisition, GPIB interface. 
+%\item \textbf{NVIDIA CUDA C:} Graphics Processing Unit parallel computing with Microsoft Visual Studio. 
+%\item \textbf{CadSoft Eagle:} Limited two layer PCB boards.
+%\item \textbf{Other:} Microsoft Project and Office\textregistered, SolidWorks\textregistered, CorelDRAW\textregistered, and \LaTeX.
+%\end{itemize}
+%
+%\item[Hardware Skills] ~\\[-16pt]
+%\begin{itemize}
+%\item Texas Instruments MSP430 Line Microprocessor Development using Code Composer Studio IDE.
+%\item Trained in Penn State NNIN Class 100 Nanofabrication facility: MDC\textregistered evaporator, Headway\textregistered PWM32 spinner, EVG\textregistered EV620 aligner,  ZYGO\textregistered optical profilometer, K\&S 982-10 dicing saw, Tencor Alphastep 200 profilometer, Bal-Tec SCD 050 sputter coater, and JEOL 6700F FE-SEM.
+%\item PCB design and fabrication, machining, stoboscopic video measurement and photography.
+%\end{itemize}
+%
+%\item[Memberships] ~\\[-16pt]
+%\begin{itemize}
+%\item \textbf{ASME Member}, August 2012 - present.
+%\item \textbf{Tau Beta Pi}, February 2005 - present.
+%\item \textbf{IEEE Member}, August 2003 - present.
+%\end{itemize}
+%
+%\item[Other Experience] ~\\[-16pt]
+%\begin{itemize}
+%\item \textbf{FIRST LEGO League Mentor} {\it FIRST (For Inspiration and Recognition of Science and Technology): with Banneker Community Center and Fairview Elementary School, Bloomington IN}. September 2014 - present; Guided elementary students in building LEGO Mindstorm EV3 Robots to complete in a robotic competition.
+%\item \textbf{FIRST Robotics Competition Mentor} {\it FIRST (For Inspiration and Recognition of Science and Technology): with Bloomington High School South, Bloomington IN}. September 2012 - present; Guided high schools students in programming a semi-autonomous robot to compete in a national head to head competition.
+%\item \textbf{Workshop Coordinator} {\it WISE Camp: Women in the Sciences and Engineering affiliated with the Pennsylvania State University, University Park, PA}. July 2007; Lead prospective undergraduate female students in laboratory experiments in electrical engineering.
+%\item \textbf{Workshop Coordinator} {\it WISE Camp: Women in the Sciences and Engineering affiliated with the Pennsylvania State University, University Park, PA}. July 2007; Lead prospective undergraduate female students in laboratory experiments in electrical engineering
+%\item \textbf{WSU Mathematics Tutor} {\it Wright State University, Dayton OH}. July 2003 - June 2005; Tutored students in topics ranging from basic mathematics to advanced calculus.
+%\item \textbf{Board member:} {\it Department of Electrical Engineering Graduate Student Advisory Board, the Pennsylvania State University, University Park, PA.} August 2007 - present; Interacted with department to improve graduate students' experiences at PSU.
+%\item \textbf{Team member:} {\it GM Challenge X, affiliated with the Pennsylvania Transportation Institute, Pennsylvania State University, University Park, PA.} September 2006; Participated in GM and DOE sponsored competition to build a hybrid electric vehicle.
+%\item \textbf{Team leader:} {\it IEEE Student Activities Conference 2005, Rowan University, NJ.} Created autonomous Lego robot to compete against other robots head to head in ball retrieval contest.
+%\end{itemize}
+%\begin{itemize}
+%\item \textbf{Engineering Co-op:} {\it Curtiss-Wright Controls Embedded Computing, Dayton, OH}. Dec 2003 - Aug
+%2005; Installed and tested fibre channel, and MIL-STD-1553 data communication hardware on desktop and single board computer interfaces.
+%
+%\end{itemize}
+%\end{description}
+\vfill
+\end{document}
