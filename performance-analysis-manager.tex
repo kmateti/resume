@@ -1,0 +1,87 @@
+\documentclass{article}[16pt]
+\parskip 0pt
+\oddsidemargin -0.675in
+\textwidth 7.5in
+\topmargin -0.6in
+\textheight 9.75in
+\thispagestyle{empty}
+\pagenumbering{gobble}
+
+%\linespread{1.0}
+
+\usepackage{palatino}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+\newlength{\lcolw}
+\setlength{\lcolw}{1.5in}
+\newlength{\rcolw}
+\setlength{\rcolw}{5.5in}
+\newlength{\hlcolw}
+\setlength{\hlcolw}{\lcolw}
+\newlength{\hmcolw}
+\setlength{\hmcolw}{3.75in}
+\newlength{\hrcolw}
+\setlength{\hrcolw}{2in}
+
+\newlength{\itemmargin}
+\setlength{\itemmargin}{-0.0in}
+\newlength{\vparskip}
+\setlength{\vparskip}{0.05in}
+
+
+\begin{document}	
+
+%% Main Summary
+\input{intro/performance-analysis-manager/intro.tex}
+
+\vspace{-0.1in}
+
+%% Address and contact info
+\input{address.tex}
+
+\vspace{-0.1in}
+
+%% Summary of Qualifications
+\input{summary/performance-analysis-manager/summary}
+
+
+\vspace{-0.1in}
+
+%% Experience
+\input{experience/performance-analysis-manager/experience}
+
+%% Education
+\input{education/robotic-systems-engineer/education}
+
+%% Summary of Skills
+\input{skills/robotic-systems-engineer/skills}
+
+
+\vspace{-0.1in}
+
+%% Patents and Publications
+\input{patentsandpublications}
+	
+%% Professional Memberships
+%\input{other/professionalmemberships}
+
+%% Community Service (too old)
+%%\input{other/communityservice}
+
+%%\vfill
+
+
+
+\end{document}
